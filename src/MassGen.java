@@ -11,7 +11,6 @@ private String name;
         this.name = name;
 
     }
-
     @Override
     public String call() throws Exception {
         Thread.currentThread().setName(name);
@@ -19,7 +18,6 @@ private String name;
         addNumber(arrays);
         Thread.sleep(5000);
         System.out.println(Thread.currentThread().getName());
-
        int summ= calculateSumm(arrays);
 
         return Integer.toString(summ);

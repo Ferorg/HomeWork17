@@ -28,7 +28,6 @@ public class Main {
         Future<String> future8 =executorService.submit(mass8);
         Future<String> future9 =executorService.submit(mass9);
         Future<String> future10 =executorService.submit(mass10);
-
         try {
             String result1 = future1.get();
             String result2 = future2.get();
