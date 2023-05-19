@@ -50,7 +50,6 @@ public class Main {
             System.out.println(result8);
             System.out.println(result9);
             System.out.println(result10);
-            
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         } catch (ExecutionException e) {
